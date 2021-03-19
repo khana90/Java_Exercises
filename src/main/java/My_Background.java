@@ -31,7 +31,7 @@ String CurrentSt ="Looking For Work";
      System.out.println("First University : " + myObj.Uni1);
       System.out.println("Second University : " + myObj.Uni2);
        System.out.println("Nationality : " + myObj.nationality);
-       System.out.println("Currently Status : " + myObj.CurrentSt);
+       System.out.println("Working Status : " + myObj.CurrentSt);
        
 try {
    java.net.URI uri = new java.net.URI( "http://www.nvidia.com" );
