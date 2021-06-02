@@ -1,3 +1,5 @@
+package Java_classes;
+
 import java.util.Scanner;
 
 /**
