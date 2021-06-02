@@ -30,7 +30,7 @@ String CurrentSt ="Looking For Work";
        System.out.println("Working Status : " + myObj.CurrentSt);
        
 try {
-   java.net.URI uri = new java.net.URI( "http://www.nvidia.com" );
+   java.net.URI uri = new java.net.URI( "https://github.com/khana90?tab=repositories" );
                 System.out.println("Check out my GitHub account : " + uri);
             }
             catch ( Exception e ) {
