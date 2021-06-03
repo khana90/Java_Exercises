@@ -1,14 +1,16 @@
 package Java_classes;
 
-
 /**
  *
  * @author A
  */
 public class ForLoop1 {
-    
+    //stop the loop at 5
     public static void main(String arg[]){
-        for(int i=1; i<6; i++){
+        for(int i=1; i<10; i++){
+            if(i==5){
+                break;
+            }
             System.out.println(i);
 
         }

@@ -24,6 +24,8 @@ public class String_Arrays {
     for(int i:list){
     System.out.println("list of items: "+i);
     }
+
+
     
     }
 }
