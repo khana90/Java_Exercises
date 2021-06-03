@@ -1,7 +1,6 @@
 package Java_classes;
 
 
-
 /**
  *
  * @author A
@@ -9,10 +8,19 @@ package Java_classes;
 public class ForLoop1 {
     
     public static void main(String arg[]){
-        for(int i=1; i<60; i++){
+        for(int i=1; i<6; i++){
             System.out.println(i);
-            
-            
+
         }
+        System.out.println(".....sum of arrays..........");
+        //advance array and its sum
+          int[] array = {10, 20, 30, 40, 50, 10};
+      int sum = 0;
+      for( int num : array) {
+          sum = sum+num;
+      }
+      System.out.println("Sum of array elements is:"+sum);
+
+        
     }
 }
