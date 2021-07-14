@@ -1,5 +1,5 @@
 
-package Java_classes;
+package Encapsulation;
 
 /**
  *
